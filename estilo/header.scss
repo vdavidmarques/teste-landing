@@ -1,0 +1,109 @@
+@import 'helpers/variaveis.scss';
+
+//Header
+
+    //Slider
+        .carousel{
+            top: 130px;
+            
+            .carousel-texto{
+                position: absolute;
+                
+                top: 0;
+                left: 50px;
+                z-index: 10;
+                padding-top: 20px;
+                padding-bottom: 20px; 
+                color: $cor-secundaria;   
+                text-align: left;
+
+                h1{
+                    font-size: 100px;                   
+                    font-weight: 900;
+                }
+
+                p{
+                    font-size: 20px;
+                    color: $cor-secundaria;
+                }
+
+            }
+
+            .waves{
+                position: absolute;
+                left: 0;
+                bottom: 0;                
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+                height: 465px;
+            }
+
+            .anchor{
+
+                img{                                
+                    position: absolute;
+                    bottom: 35px;
+                }
+            }
+
+            .img-default{
+                height: 950px;
+                object-fit: contain;
+                float: right;
+            }
+        }
+
+@media (max-width: 1199px){
+    .carousel{
+        
+        .waves.mobile{   
+            height: 588px;
+            object-fit: fill;
+        }
+
+        .carousel-texto{                   
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 930px;
+
+            h1{
+                font-size: 55px; 
+               
+            }
+        } 
+
+        .carousel-inner{
+            height: 930px;
+        }
+      
+        .waves.mobile{                    
+            top: 70%;       
+        }
+
+        .carousel-texto{
+            p{
+                color: #fff;
+                position: absolute;                
+                padding: 0 30px;
+                font-size: 15px;
+                height: 450px;
+                bottom: 0;
+                display: flex;
+                align-items: center;
+            }
+        }   
+        
+        .img-default{                        
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+    }
+}
+    //Fim Slider
+
+//Fim Header

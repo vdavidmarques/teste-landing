@@ -1,0 +1,91 @@
+.carousel {
+  top: 130px;
+}
+
+.carousel .carousel-texto {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #0B6699;
+  text-align: left;
+}
+
+.carousel .carousel-texto h1 {
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.carousel .carousel-texto p {
+  font-size: 20px;
+  color: #0B6699;
+}
+
+.carousel .waves {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 465px;
+}
+
+.carousel .anchor img {
+  position: absolute;
+  bottom: 35px;
+}
+
+.carousel .img-default {
+  height: 950px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  float: right;
+}
+
+@media (max-width: 1199px) {
+  .carousel .waves.mobile {
+    height: 588px;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  .carousel .carousel-texto {
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 930px;
+  }
+  .carousel .carousel-texto h1 {
+    font-size: 55px;
+  }
+  .carousel .carousel-inner {
+    height: 930px;
+  }
+  .carousel .waves.mobile {
+    top: 70%;
+  }
+  .carousel .carousel-texto p {
+    color: #fff;
+    position: absolute;
+    padding: 0 30px;
+    font-size: 15px;
+    height: 450px;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .carousel .img-default {
+    width: 100%;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+/*# sourceMappingURL=header.css.map */

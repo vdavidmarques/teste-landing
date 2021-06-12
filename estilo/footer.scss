@@ -1,0 +1,55 @@
+@import 'helpers/variaveis.scss';
+
+footer{
+
+    margin-top: 300px;
+    margin-bottom: 30px;
+
+    h2{
+        font-size: 80px;
+        font-weight: bold;
+        color: $cor-padrao;
+    }  
+    
+    p{
+        font-size: 30px;
+        margin-top: 55px;
+    }
+
+    .card{
+        img{
+            width: 96px;
+            height: 40px;
+            position: relative;
+            object-fit: cover;
+        }
+    }
+
+    .anchor img{
+        transform: rotate(180deg);
+    }
+
+    .label-fixed{
+        position: fixed;
+        left: 0;
+        background-color: #931854;
+        bottom: 160px;
+        width: 200px;
+        border-radius: 0 10px 10px 0;
+        padding: 10px 0;
+        z-index: 99;
+
+        p{
+            color: #fff;
+            text-align: center;
+            margin: 0;        
+            font-size: 20px;
+        }
+    }
+}
+
+@media (min-width: 991px){
+    footer{
+        padding: 0 20px;
+    }
+}

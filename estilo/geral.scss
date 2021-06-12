@@ -1,0 +1,37 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E2E2E2;   
+    word-wrap: break-word; 
+}
+
+p{
+    color: $cor-padrao;
+}
+
+
+
+.anchor{
+
+    img{              
+        height: 26px!important;    
+    }
+}
+
+.desktop{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+
+@media (max-width: 1199px){
+      .mobile{
+        display: block;
+    }
+
+    .desktop{
+        display: none;
+    }
+}

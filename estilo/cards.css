@@ -1,0 +1,16 @@
+.cards {
+  margin-top: 100px;
+}
+
+.cards img {
+  width: 145px;
+  height: 145px;
+}
+
+.cards .card {
+  width: 536px;
+  height: 286px;
+  padding: 28px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=cards.css.map */
